@@ -1,0 +1,82 @@
+.debug .container [class*='col-']{
+    /*
+    min-height: 50px;
+    */
+    border: 2px solid rgb(220, 143, 0);
+}
+
+.debug [class*='col-'].nested {
+    background-color: yellowgreen;
+    border: 2px solid rgb(121, 164, 34);
+}
+
+.debug .container{
+    border: 4px solid black;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+h2{
+    font-size: 2em;
+    color: #262626;
+}
+
+.py{
+    padding: 50px 0px;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+
+/* colors */
+
+.skin{
+    background-color: #AB683F;
+    border: 0px solid transparent;
+}
+
+.hair{
+    background-color: #C5CBC9;
+    border: 0px solid transparent;
+}
+
+.lips{
+    background-color: #6B3E37;
+    border: 0px solid transparent;
+}
+
+.glasses{
+    background-color: #DD6F0F;
+    border: 0px solid transparent;
+}
+
+.glasses-2{
+    background-color: #FD8117;
+    border: 0px solid transparent;
+}
+
+.black{
+    background-color: #000;
+    border: 0px solid transparent;
+}
+
+.white{
+    background-color: #FFF;
+    border: 0px solid transparent;
+}
